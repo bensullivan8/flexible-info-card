@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ccc;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+}
